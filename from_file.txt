@@ -1,0 +1,6 @@
+This is from file text.
+This text i am writing in the form file only.
+Let's see what happen.
+Hodor..
+Another set of input.
+Lets see again...
