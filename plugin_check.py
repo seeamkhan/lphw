@@ -1,5 +1,8 @@
+from sys import argv
 import mmap
 
+
+script, filename = argv
 
 success_plugin_string = '.vip: Load ok. Init ok.'
 fail_plugin_string = '.vip: Load failed. Init failed.'
@@ -22,7 +25,7 @@ not_a_plugin_string = "Go to hell."
 # print answer
 # print test
 
-data = open('test_log.txt').read()
+data = open(filename).read()
 count_success = data.count(success_plugin_string)
 print "Number of plugins successfully loaded: %d" % count_success
 
