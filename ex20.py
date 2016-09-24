@@ -20,5 +20,5 @@ print "Now, lets rewind. kind of like a tape:"
 rewind(current_file)
 
 print "Let's print three lines:"
-for line_count in xrange(3):
+for line_count in xrange(1, 4):
     print_a_line(line_count, current_file)
