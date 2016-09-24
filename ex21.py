@@ -14,6 +14,7 @@ def div(a, b):
     print "Divide %d and %d" % (a, b)
     return a/b
 
+
 print "Let's do match with some functions."
 age = add(50, 25)
 height = sub(60, 30)
