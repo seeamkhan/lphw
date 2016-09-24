@@ -1,0 +1,6 @@
+this is a test log file.
+C:\Program Files\Vizrt\Viz3\Plugin\2DLine.vip: Load ok. Init ok.
+C:\Program Files\Vizrt\Viz3\Plugin\2DPatch.vip: Load ok. Init ok.
+C:\Program Files\Vizrt\Viz3\Plugin\2DRibbon.vip: Load ok. Init ok.
+end of test log file.
+Go to hell.
