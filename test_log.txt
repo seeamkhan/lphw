@@ -2,5 +2,20 @@ this is a test log file.
 C:\Program Files\Vizrt\Viz3\Plugin\2DLine.vip: Load ok. Init ok.
 C:\Program Files\Vizrt\Viz3\Plugin\2DPatch.vip: Load ok. Init ok.
 C:\Program Files\Vizrt\Viz3\Plugin\2DRibbon.vip: Load ok. Init ok.
+wrongplugin1 is not for loading: This is loading error message for wrongplugin1.
+C:\Program Files\Vizrt\Viz3\Plugin\wrongplugin1.vip: Loading Error. Init Failed.
+wrongplugin2 is not for loading: This is loading error message for wrongplugin2. This message is different from 1.
+C:\Program Files\Vizrt\Viz3\Plugin\wrongplugin2.vip: Loading Error. Init Failed.
+
+
+ERROR: File 'C:\Program Files\vizrt\Viz3\Plugin\AutoFollow.vip' is not a valid Viz Engine plugin
+(The specified module could not be found. Error code = 126) ().
+C:\Program Files\vizrt\Viz3\Plugin\AutoFollow.vip: Load failed. Init failed.
+
+C:\Program Files\vizrt\Viz3\Plugin\Advanced_Counter.vip: Load ok. Init ok.
+ERROR: File 'C:\Program Files\vizrt\Viz3\Plugin\AlphaMap.vip' is not a valid Viz Engine plugin
+(The specified module could not be found. Error code = 126) ().
+C:\Program Files\vizrt\Viz3\Plugin\AlphaMap.vip: Load failed. Init failed.
+C:\Program Files\vizrt\Viz3\Plugin\AnalogWatch.vip: Load ok. Init ok.
 end of test log file.
 Go to hell.

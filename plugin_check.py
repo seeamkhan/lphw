@@ -1,7 +1,8 @@
 import mmap
 
 
-plugin_string = ".vip: Load ok. Init ok."
+success_plugin_string = '.vip: Load ok. Init ok.'
+fail_plugin_string = '.vip: Load failed. Init failed.'
 not_a_plugin_string = "Go to hell."
 
 # print "This is the first attempt for the string findings."
@@ -21,7 +22,9 @@ not_a_plugin_string = "Go to hell."
 # print answer
 # print test
 
-print "Counting Load ok and Init ok."
 data = open('test_log.txt').read()
-count = data.count(plugin_string)
-print "Number of successfull plugins: %d" % count
+count_success = data.count(success_plugin_string)
+print "Number of plugins successfully loaded: %d" % count_success
+
+count_fail = data.count(fail_plugin_string)
+print "Number of plugins failed to load: %d" %count_fail
