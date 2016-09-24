@@ -1,4 +1,7 @@
 this is a test log file.
+Error 1
+ERROR 2
+ERROR
 C:\Program Files\Vizrt\Viz3\Plugin\2DLine.vip: Load ok. Init ok.
 C:\Program Files\Vizrt\Viz3\Plugin\2DPatch.vip: Load ok. Init ok.
 C:\Program Files\Vizrt\Viz3\Plugin\2DRibbon.vip: Load ok. Init ok.
