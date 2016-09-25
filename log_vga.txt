@@ -1,0 +1,19 @@
+Hardware: System  QUADRO K5000 (NVIDIA Quadro K5000, no video) (channel 1 of 1)
+          Graphic NVIDIA Quadro K5000
+
+--------<Some text appear here>----------
+This is some text.
+
+Hardware: System   QUADRO K5000 (NVIDIA Quadro K5000, no video) (channel 1 of 1)
+
+          Renderer Quadro K5000/PCIe/SSE2
+          Graphic  NVIDIA Quadro K5000
+          Driver   NVIDIA 10.18.13.6886
+
+Initializing Plugins
+C:\Program Files (x86)\vizrt\Viz3\Plugin\Match_It.vip: Load ok. Init ok.
+ERROR: File 'C:\Program Files (x86)\vizrt\Viz3\Plugin\MatroxFileWriter.vip' is n
+ot a valid Viz Engine plugin
+(The specified module could not be found. Error code = 126) ().
+C:\Program Files (x86)\vizrt\Viz3\Plugin\MatroxFileWriter.vip: Load failed. Init
+ failed.

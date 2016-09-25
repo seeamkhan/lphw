@@ -1,4 +1,5 @@
 from sys import argv
+import itertools
 import mmap
 
 script, filename = argv
@@ -42,11 +43,13 @@ def count_keywords(keywords):
     error_list = []
     f = open(filename)
     count = 0
-    for line in f:
+    for i, line in enumerate(f):
+    # for line in f:
         if keywords in line:
             count =  count+1
             error_list.append(line)
             # print line
+            print i, line
     print "Found %d '%s' in the file." % (count, keywords)
     print "Here's the error list: "
     print '\n'.join(error_list)
@@ -54,4 +57,4 @@ def count_keywords(keywords):
 # count_keywords(success_plugin_string)
 count_keywords(load_init_fail_plugin_string)
 # count_keywords(load_fail_plugin_string)
-count_keywords(init_fail_plugin_string)
+# count_keywords(init_fail_plugin_string)

@@ -1,0 +1,34 @@
+Start of log file with video.
+------------<this part appear first.>-------------
+Hardware: System  Video (NVIDIA Quadro K5000, with no VideoBoard) (channel 1 of 1)
+          Graphic NVIDIA Quadro K5000
+
+------------<Then some other text appear.>-----------
+This is some other text.
+
+------------<Then this part appear>--------------
+Hardware: System   Video (NVIDIA Quadro K5000, with no VideoBoard) (channel 1 of 1)
+          Renderer Quadro K5000/PCIe/SSE2
+          Graphic  NVIDIA Quadro K5000
+          Driver   NVIDIA 10.18.13.6886
+
+------------<Then the init plugin start>-----------
+Initializing Plugins
+STARTUP: VizEngine-0[26820]:PluginBgLoader starting up.
+C:\Program Files\Vizrt\Viz3\Plugin\ControlTgalpha.vip: Inactive.
+NOTICE: VizEngine-0[27172]:C:\ProgramData\vizrt\Viz3\ScriptPlugins\ ignored 0, scheduled 0, sync init'd 0 plugins.
+C:\Program Files\Vizrt\Viz3\Plugin\2DFollow.vip: Load ok. Init ok.
+
+------------<Now the Mtrox bullshit appear>-----------
+Matrox DSX.utils version is empty.                                                                                      
+Cannot check for installed version.                                                                                     
+Plugin will not be loaded.                                                                                              
+                                                                                                                        
+error: could not send command <0 COMMAND NO_DELAY RENDER_TO_DISK INFO_MESSAGE {**
+Matrox DSX.utils version is empty.                                                                                      
+Cannot check for installed version.                                                                                     
+Plugin will not be loaded.                                                                                              
+}>                                                                                                                      
+Plugin 'C:\Program Files\Vizrt\Viz3\Plugin\MatroxFileWriter.vip' doesn't support this hardware configuration.           
+C:\Program Files\Vizrt\Viz3\Plugin\MatroxFileWriter.vip: Load ok. Init failed.                                          
+C:\Program Files\Vizrt\Viz3\Plugin\Maxsize.vip: Load ok. Init ok.   

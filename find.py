@@ -1,3 +1,5 @@
+import itertools
+
 # with open("test_log.txt") as f:
 #     for line in f:
 #         if "test" in line:
