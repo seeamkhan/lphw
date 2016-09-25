@@ -9,6 +9,8 @@ success_plugin_string = '.vip: Load ok. Init ok.'
 load_init_fail_plugin_string = '.vip: Load failed. Init failed.'
 load_fail_plugin_string = '.vip: Load failed. Init ok.'
 init_fail_plugin_string = '.vip: Load ok. Init failed.'
+failed_plugin = 'Init failed.'
+found_video = 'Hardware: System  Video'
 
 not_a_plugin_string = "Go to hell."
 num_lines = sum(1 for line in open(filename))
@@ -55,6 +57,7 @@ def count_keywords(keywords):
     print '\n'.join(error_list)
 
 # count_keywords(success_plugin_string)
-count_keywords(load_init_fail_plugin_string)
+# count_keywords(load_init_fail_plugin_string)
 # count_keywords(load_fail_plugin_string)
 # count_keywords(init_fail_plugin_string)
+count_keywords(failed_plugin)

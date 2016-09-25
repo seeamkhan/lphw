@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dae5eeaf-4615-4865-af38-6bda4760caa4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log_vga.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log_video.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MatroxFileWriterErrorVGA.log" afterPath="$PROJECT_DIR$/MatroxFileWriterErrorVGA.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluginLoadError.log" afterPath="$PROJECT_DIR$/PluginLoadError.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PluginLoadError_LicenseMissing.log" afterPath="$PROJECT_DIR$/PluginLoadError_LicenseMissing.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/find.py" afterPath="$PROJECT_DIR$/find.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log_vga.txt" afterPath="$PROJECT_DIR$/log_vga.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin_check.py" afterPath="$PROJECT_DIR$/plugin_check.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skip_XML Load failed.log" afterPath="$PROJECT_DIR$/skip_XML Load failed.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_log.txt" afterPath="$PROJECT_DIR$/test_log.txt" />
@@ -23,7 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -51,12 +49,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin_check.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="plugin_check.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/plugin_check.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-476">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="-371">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,8 +64,8 @@
       <file leaf-file-name="find.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+            <state relative-caret-position="285">
+              <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -74,8 +74,8 @@
       <file leaf-file-name="test_log.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -84,18 +84,18 @@
       <file leaf-file-name="log_video.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log_video.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="31" column="63" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="63" />
+            <state relative-caret-position="364">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log_vga.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="log_vga.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log_vga.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -132,11 +132,11 @@
         <option value="$PROJECT_DIR$/ex20.py" />
         <option value="$PROJECT_DIR$/ex21.py" />
         <option value="$PROJECT_DIR$/logfile.txt" />
-        <option value="$PROJECT_DIR$/plugin_check.py" />
         <option value="$PROJECT_DIR$/find.py" />
-        <option value="$PROJECT_DIR$/test_log.txt" />
         <option value="$PROJECT_DIR$/log_video.txt" />
+        <option value="$PROJECT_DIR$/test_log.txt" />
         <option value="$PROJECT_DIR$/log_vga.txt" />
+        <option value="$PROJECT_DIR$/plugin_check.py" />
       </list>
     </option>
   </component>
@@ -452,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474759006481</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="working on video and vga">
+      <created>1474790121240</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1474790121240</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,7 +523,8 @@
     <MESSAGE value="from mac on ex21" />
     <MESSAGE value="plugin_check" />
     <MESSAGE value="added log files" />
-    <option name="LAST_COMMIT_MESSAGE" value="added log files" />
+    <MESSAGE value="working on video and vga" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on video and vga" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -543,7 +551,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="35" column="67" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="67" />
-          <folding />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -599,7 +609,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -821,32 +833,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/find.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        <state relative-caret-position="285">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plugin_check.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log_video.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="31" column="63" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="63" />
+        <state relative-caret-position="364">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="78" />
           <folding />
         </state>
       </provider>
@@ -854,8 +858,18 @@
     <entry file="file://$PROJECT_DIR$/log_vga.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="76" selection-start-line="19" selection-start-column="76" selection-end-line="19" selection-end-column="76" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-371">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

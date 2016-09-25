@@ -17,3 +17,4 @@ ot a valid Viz Engine plugin
 (The specified module could not be found. Error code = 126) ().
 C:\Program Files (x86)\vizrt\Viz3\Plugin\MatroxFileWriter.vip: Load failed. Init
  failed.
+C:\Program Files\vizrt\Viz3\Plugin\AutoFollow.vip: Load failed. Init failed.

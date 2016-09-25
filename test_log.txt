@@ -3,15 +3,6 @@ Error 1
 ERROR 2
 ERROR
 
-Hardware: System   Video (NVIDIA Quadro K5000, with no VideoBoard) (channel 1 of 1)
-          Renderer Quadro K5000/PCIe/SSE2
-          Graphic  NVIDIA Quadro K5000
-          Driver   NVIDIA 10.18.13.6886
-
-
-Hardware: System  Video (NVIDIA Quadro K5000, with no VideoBoard) (channel 1 of 1)
-          Graphic NVIDIA Quadro K5000
-
 C:\Program Files\Vizrt\Viz3\Plugin\2DLine.vip: Load ok. Init ok.
 C:\Program Files\Vizrt\Viz3\Plugin\2DPatch.vip: Load ok. Init ok.
 C:\Program Files\Vizrt\Viz3\Plugin\2DRibbon.vip: Load ok. Init ok.
